@@ -36,3 +36,4 @@ sysinfo.txt
 *.unitypackage
 BlackFire.ToolKit/Packages/
 BlackFire.ToolKit/Assets/Plugins/Editor/
+BlackFire.ToolKit/Assets/Plugins/Editor.meta

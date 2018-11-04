@@ -14,7 +14,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-namespace BlackFire.Unity
+namespace BlackFire.ToolKit
 {
     [AddComponentMenu("BlackFire/UI/Anim Image", 11)]
     [ExecuteInEditMode]

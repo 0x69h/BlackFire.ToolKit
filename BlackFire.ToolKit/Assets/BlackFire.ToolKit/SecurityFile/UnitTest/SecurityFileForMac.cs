@@ -11,7 +11,7 @@ using System;
 using System.IO;
 using UnityEngine;
 
-namespace BlackFire.Unity
+namespace BlackFire.ToolKit
 {
     public class SecurityFileForMac:MonoBehaviour
     {
@@ -28,7 +28,7 @@ namespace BlackFire.Unity
         private void Start()
         {
             var text = File.ReadAllText(Application.streamingAssetsPath+"/auth");
-            text = ToolkitUtility.Security.AES_Decrypt(text,m_Key);
+            text = SecurityFile.Decrypt(text,m_Key);
             var macs = text.Split(',');
             var result = ToolkitUtility.Device.HasMac(macs);
 

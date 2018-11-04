@@ -11,7 +11,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace BlackFire.Unity.Editor
+namespace BlackFire.ToolKit.Editor
 {
 	public static class AnimImageHierarchy
 	{

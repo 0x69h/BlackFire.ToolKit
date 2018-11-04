@@ -8,11 +8,10 @@
 */
 
 using System.IO;
-using BlackFire.Unity;
 using UnityEditor;
 using UnityEngine;
 
-namespace BlackFire.Unity.Editor
+namespace BlackFire.ToolKit.Editor
 {
     public sealed class SecurityFileWindow : Alan.Editor.EditorWindowBase<SecurityFileWindow>
     {
@@ -20,7 +19,7 @@ namespace BlackFire.Unity.Editor
         [MenuItem("Window/BlackFire ToolKit/Security File")]
         private static void Security_File()
         {
-            var window = EditorWindow.GetWindow(typeof(BlackFire.Unity.Editor.SecurityFileWindow), false, "Security File") as BlackFire.Unity.Editor.SecurityFileWindow;
+            var window = EditorWindow.GetWindow(typeof(BlackFire.ToolKit.Editor.SecurityFileWindow), false, "Security File") as BlackFire.ToolKit.Editor.SecurityFileWindow;
             window.position = new UnityEngine.Rect((1920f-730f)/2,(1080f-650f)/2,400f,150f);
         }
         

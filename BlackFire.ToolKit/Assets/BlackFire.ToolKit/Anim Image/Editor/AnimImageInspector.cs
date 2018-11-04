@@ -12,7 +12,7 @@ using UnityEditor;
 using UnityEditor.UI;
 using UnityEngine;
 
-namespace BlackFire.Unity.Editor
+namespace BlackFire.ToolKit.Editor
 {
 	[CustomEditor(typeof(AnimImage), false)]
 	public class AnimImageInspector : GraphicEditor

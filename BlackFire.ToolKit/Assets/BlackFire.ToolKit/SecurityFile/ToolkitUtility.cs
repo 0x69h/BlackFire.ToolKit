@@ -9,13 +9,11 @@
 
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Net.NetworkInformation;
 using System.Security.Cryptography;
 using System.Text;
-using UnityEngine;
 
-namespace BlackFire.Unity
+namespace BlackFire.ToolKit
 {
     public static partial class ToolkitUtility
     {
@@ -71,8 +69,6 @@ namespace BlackFire.Unity
                     
                     return Encoding.UTF8.GetString(resultArray);
                 }
-
-            
 
             #endregion
 
